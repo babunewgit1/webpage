@@ -267,6 +267,7 @@ header {
 .hmhost_wrapper h2 {
   margin-top: 22px;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .hmhost_wrapper p {
@@ -939,4 +940,62 @@ img.mbg {
 
 /* ============================
     Resedence end
+============================ */
+
+/* ============================
+    restype start
+============================ */
+.p3slider .pmslide_wrapper {
+  bottom: 25px;
+}
+
+/* -- p3exper area start -- */
+.p3expert_heading {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+.p3expert_heading h2 {
+  text-transform: uppercase;
+}
+
+.p3expert_heading p {
+  font-size: 18px;
+  color: var(--redbg);
+  margin-top: 15px;
+}
+
+.p3expert_item_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 55px;
+}
+
+.p3expert_item img {
+  display: block;
+  width: 100%;
+}
+
+.p3expert_item p {
+  font-size: 18px;
+  color: var(--redbg);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.p3expert_item_wrapper {
+  margin-top: 55px;
+}
+
+#p3expert {
+  padding-top: 40px;
+  padding-bottom: 120px;
+  overflow: hidden;
+}
+
+/* -- p3exper area end -- */
+
+/* ============================
+    restype end
 ============================ */
