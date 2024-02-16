@@ -4,6 +4,13 @@ Medium Screen - Others
 ====================================
 */
 
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+  .hmhost_wrapper {
+    max-width: 915px;
+    margin-top: -86px;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .menu_left ul li a {
     margin-right: 18px;
@@ -21,12 +28,6 @@ Medium Screen - Others
 
   .headfiff {
     font-size: 32px;
-  }
-
-  .hmhero_wrapper {
-    position: absolute;
-    left: 0;
-    top: 115px;
   }
 
   .hmhost_wrapper {
@@ -67,6 +68,34 @@ Medium Screen - Others
   .copyright p {
     margin-left: 284px;
   }
+
+  .reslider_right {
+    padding-left: 0px;
+  }
+
+  .main_heading {
+    font-size: 38px;
+  }
+
+  .reslider_right p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  .reslider_right a {
+    color: #d7aa93;
+    border-color: #d7aa93;
+    letter-spacing: 1px;
+  }
+
+  .resnai_left_wrapper {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+
+  .resnai_right {
+    padding-left: 40px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -86,12 +115,6 @@ Medium Screen - Others
 
   .headfiff {
     font-size: 32px;
-  }
-
-  .hmhero_wrapper {
-    position: absolute;
-    left: 0;
-    top: 115px;
   }
 
   .hmhost_wrapper {
@@ -131,6 +154,34 @@ Medium Screen - Others
   .footer_bottom_section,
   .copyright p {
     margin-left: 200px;
+  }
+
+  .reslider_right {
+    padding-left: 0px;
+  }
+
+  .main_heading {
+    font-size: 38px;
+  }
+
+  .reslider_right p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  .reslider_right a {
+    color: #d7aa93;
+    border-color: #d7aa93;
+    letter-spacing: 1px;
+  }
+
+  .resnai_left_wrapper {
+    padding-right: 0;
+    padding-left: 15px;
+  }
+
+  .resnai_right {
+    padding-left: 40px;
   }
 }
 
@@ -176,7 +227,7 @@ Small Screen - Tablate
   }
 
   .hmlink {
-    max-width: 200px;
+    max-width: 265px;
     font-size: 14px;
     padding: 8px;
   }
@@ -202,7 +253,7 @@ Small Screen - Tablate
   }
 
   .hmhost_wrapper p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
@@ -223,7 +274,7 @@ Small Screen - Tablate
 
   .pmslide_cnt p {
     padding-right: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     margin-top: 8px;
     color: #561200;
@@ -267,7 +318,7 @@ Small Screen - Tablate
   }
 
   .pmfectti_list_group ul li a {
-    font-size: 12px;
+    font-size: 16px;
     padding: 4px 2px;
   }
 
@@ -298,6 +349,87 @@ Small Screen - Tablate
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  .rsbg .hmhero_wrapper {
+    top: 0;
+  }
+
+  #reslider {
+    padding-top: 0;
+    overflow: hidden;
+  }
+
+  .reslider_left {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .res_one_nav span {
+    border: 0;
+  }
+
+  .res_one_nav span img {
+    width: 10px;
+  }
+
+  .res_one_nav span {
+    top: 35%;
+    left: 0%;
+  }
+
+  .res_one_nav span#res_one_right {
+    right: 0;
+  }
+
+  #reslider .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
+  }
+
+  .reslider_right p {
+    font-size: 16px;
+    color: var(--redbg);
+    margin-top: 8px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  .reslider_right {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .reslider_right a {
+    margin: auto;
+    max-width: 265px;
+  }
+
+  .resnai_left_wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .resnai_left_wrapper p {
+    font-size: 16px;
+    color: var(--redbg);
+    margin-top: 24px;
+    line-height: 1.2;
+  }
+
+  .resnai_right {
+    margin-top: 80px;
+  }
+
+  .resnai_para p {
+    margin-bottom: 10px;
+  }
+
+  .resnai_line {
+    display: none;
+  }
+
+  #resnai .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
   }
 }
 
@@ -335,7 +467,7 @@ Small Screen - Mobile
   }
 
   .hmhero_left p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .headfiff {
@@ -351,6 +483,7 @@ Small Screen - Mobile
   .hmhero_left h2 {
     margin-top: 4px;
     margin-bottom: 10px;
+    font-size: 30px;
   }
 
   .hmhost_wrapper {
@@ -369,7 +502,7 @@ Small Screen - Mobile
   }
 
   .hmhost_wrapper p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
@@ -390,7 +523,7 @@ Small Screen - Mobile
 
   .pmslide_cnt p {
     padding-right: 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     margin-top: 8px;
     color: #561200;
@@ -434,7 +567,7 @@ Small Screen - Mobile
   }
 
   .pmfectti_list_group ul li a {
-    font-size: 12px;
+    font-size: 14px;
     padding: 4px 2px;
   }
 
@@ -465,6 +598,88 @@ Small Screen - Mobile
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  .rsbg .hmhero_wrapper {
+    top: 0;
+  }
+
+  #reslider {
+    padding-top: 0;
+    overflow: hidden;
+  }
+
+  .reslider_left {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .res_one_nav span {
+    border: 0;
+  }
+
+  .res_one_nav span img {
+    width: 10px;
+  }
+
+  .res_one_nav span {
+    top: 35%;
+    left: 0%;
+  }
+
+  .res_one_nav span#res_one_right {
+    right: 0;
+  }
+
+  #reslider .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
+  }
+
+  .reslider_right p {
+    font-size: 16px;
+    color: var(--redbg);
+    margin-top: 8px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  .reslider_right {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .reslider_right a {
+    margin: auto;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
+  .resnai_left_wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .resnai_left_wrapper p {
+    font-size: 16px;
+    color: var(--redbg);
+    margin-top: 24px;
+    line-height: 1.2;
+  }
+
+  .resnai_right {
+    margin-top: 80px;
+  }
+
+  .resnai_para p {
+    margin-bottom: 10px;
+  }
+
+  .resnai_line {
+    display: none;
+  }
+
+  #resnai .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
   }
 }
 
@@ -511,8 +726,9 @@ Xtra Small Screen - Small Mobile
 
   .hmlink {
     max-width: 200px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px;
+    letter-spacing: 1px;
   }
 
   .hmhero_left h2 {
@@ -632,5 +848,85 @@ Xtra Small Screen - Small Mobile
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  .rsbg .hmhero_wrapper {
+    top: 0;
+  }
+
+  #reslider {
+    padding-top: 0;
+    overflow: hidden;
+  }
+
+  .reslider_left {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .res_one_nav span {
+    border: 0;
+  }
+
+  .res_one_nav span img {
+    width: 10px;
+  }
+
+  .res_one_nav span {
+    top: 35%;
+    left: 0%;
+  }
+
+  .res_one_nav span#res_one_right {
+    right: 0;
+  }
+
+  #reslider .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
+  }
+
+  .reslider_right p {
+    font-size: 14px;
+    color: var(--redbg);
+    margin-top: 8px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  .reslider_right {
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .reslider_right a {
+    margin: auto;
+  }
+
+  .resnai_left_wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .resnai_left_wrapper p {
+    font-size: 14px;
+    color: var(--redbg);
+    margin-top: 24px;
+    line-height: 1.2;
+  }
+
+  .resnai_right {
+    margin-top: 80px;
+  }
+
+  .resnai_para p {
+    margin-bottom: 10px;
+  }
+
+  .resnai_line {
+    display: none;
+  }
+
+  #resnai .owl-theme .owl-nav.disabled + .owl-dots {
+    display: none;
   }
 }

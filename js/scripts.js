@@ -1,5 +1,6 @@
 (function ($) {
   $(document).ready(function () {
+    //home page slider
     $(".products-slider").owlCarousel({
       loop: true,
       margin: 180,
@@ -8,7 +9,7 @@
       // rtl: true,
       dots: false,
       autoplay: true,
-      autoplayTimeout: 2000000,
+      autoplayTimeout: 50000,
       responsiveClass: true,
       responsiveRefreshRate: true,
       responsive: {
@@ -38,6 +39,115 @@
     });
     $("#left").click(function () {
       owl.trigger("prev.owl.carousel", [300]);
+    });
+
+    //resedence page slider
+    $(".res_one").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: false,
+      nav: false,
+      // rtl: true,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var resOne = $(".res_one");
+    resOne.owlCarousel();
+    $("#res_one_right").click(function () {
+      resOne.trigger("next.owl.carousel");
+    });
+    $("#res_one_left").click(function () {
+      resOne.trigger("prev.owl.carousel", [300]);
+    });
+
+    $(".res_two").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: false,
+      nav: false,
+      // rtl: true,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
+    });
+
+    var resTwo = $(".res_two");
+    resTwo.owlCarousel();
+    $(".resnavRightOne").click(function () {
+      resTwo.trigger("next.owl.carousel");
+    });
+    $(".resnavLeftOne").click(function () {
+      resTwo.trigger("prev.owl.carousel", [300]);
+    });
+
+    $(".resnai_slider").owlCarousel({
+      loop: true,
+      margin: 0,
+      center: false,
+      nav: false,
+      // rtl: true,
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        960: {
+          items: 1,
+        },
+        1200: {
+          items: 1,
+        },
+        1920: {
+          items: 1,
+        },
+      },
     });
   });
 })(jQuery);
