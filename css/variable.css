@@ -1,0 +1,57 @@
+:root {
+  --yellowbg: #654931;
+  --yellowwhite: #f0e7d8;
+  --normalwhite: #eee9e2;
+  --redbg: #561200;
+  --white: #ffffff;
+  --yeltext: #d7aa93;
+}
+
+.headfiff {
+  font-size: 50px;
+  font-family: "Domaine Disp Nar";
+}
+
+.main_heading {
+  font-size: 40px;
+  color: var(--redbg);
+  font-family: "Domaine Disp Nar";
+}
+
+.hmlink {
+  display: block;
+  max-width: 370px;
+  text-align: center;
+  border: 1px solid var(--white);
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 10px;
+  position: relative;
+  transition: all 0.2s ease;
+  z-index: 9;
+  letter-spacing: 3px;
+}
+
+.hmlink:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: var(--white);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+
+.hmlink:hover:after {
+  color: var(--redbg);
+  width: 100%;
+}
+
+.hmlink:hover {
+  color: var(--redbg);
+  width: 100%;
+}
