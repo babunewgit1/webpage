@@ -439,7 +439,7 @@ header {
 
 .pmlocation_heading p {
   font-size: 18px;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .pmlocationbox {
@@ -1115,9 +1115,102 @@ img.mbg {
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
 }
-
 /* -- mbsvslider area end -- */
 
 /* ============================
     service end
+============================ */
+
+/* ============================
+    gellery start
+============================ */
+
+/* -- gellery area start -- */
+.gellery_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  row-gap: 35px;
+}
+
+.gell_item img {
+  display: block;
+  width: 100%;
+}
+
+.gell_item p {
+  font-size: 16px;
+  margin-top: 6px;
+  color: var(--redbg);
+  text-align: center;
+}
+
+#gellery {
+  background-color: var(--normalwhite);
+  padding-bottom: 100px;
+}
+
+.gellery_wrapper {
+  margin-left: -60px;
+  margin-right: -60px;
+}
+/* -- gellery area end -- */
+
+/* ============================
+    gellery end
+============================ */
+
+/* ============================
+    location start
+============================ */
+.locslider {
+  background-color: var(--normalwhite);
+}
+
+.lclocation_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lclocation_item ul li {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lclocation_item ul li span {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+.lclocation_item {
+  position: relative;
+  margin-top: 55px;
+}
+
+.lclocation_item img {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.lclocation_item img.lc1 {
+  width: 30px;
+  left: -50px;
+}
+
+.lclocation_item img.lc2 {
+  width: 50px;
+  left: -80px;
+}
+
+.lclocation_item img.lc3 {
+  width: 30px;
+  left: -60px;
+}
+
+/* ============================
+    location end
 ============================ */
