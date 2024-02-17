@@ -149,5 +149,36 @@
         },
       },
     });
+
+    //service page slider
+    $(".svproduct").owlCarousel({
+      loop: true,
+      margin: 15,
+      center: false,
+      nav: false,
+      // rtl: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 200000,
+      responsiveClass: true,
+      responsiveRefreshRate: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 3,
+        },
+        960: {
+          items: 3,
+        },
+        1200: {
+          items: 4,
+        },
+        1920: {
+          items: 4,
+        },
+      },
+    });
   });
 })(jQuery);

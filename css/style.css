@@ -181,6 +181,10 @@ label {
   transition: all 0.2s ease;
 }
 
+.menu_left ul li a.active:after {
+  width: 100%;
+}
+
 .menu_left ul li a:hover:after {
   width: 100%;
 }
@@ -340,6 +344,7 @@ header {
 
 #pmslider {
   background-color: var(--normalwhite);
+  padding-bottom: 130px;
 }
 
 .pmslider_wrapper {
@@ -776,6 +781,11 @@ img.mbg {
   text-transform: uppercase;
   margin-bottom: 8px;
   display: inline-block;
+  border-bottom: 1px solid transparent;
+}
+
+.menuLink ul li a.active {
+  border-color: #fc5000;
 }
 
 /* -- mobileMenu area end -- */
@@ -993,9 +1003,121 @@ img.mbg {
   padding-bottom: 120px;
   overflow: hidden;
 }
-
 /* -- p3exper area end -- */
 
 /* ============================
     restype end
+============================ */
+
+/* ============================
+    service start
+============================ */
+
+/* -- serviceslide area start -- */
+.sv_item {
+  position: relative;
+}
+
+.sv_item h3.inititle {
+  font-size: 40px;
+  font-family: "Domaine Disp Nar";
+  color: var(--white);
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.sv_item_cnt {
+  background-color: var(--yeltext);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  transform: scale(0);
+}
+
+.sv_item:hover .sv_item_cnt {
+  transform: scale(1);
+}
+
+.sv_item_cnt h3 {
+  font-size: 32px;
+  font-family: "Domaine Disp Nar";
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+.sv_item_cnt p {
+  color: #fff;
+}
+
+#serviceslider .owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 3px;
+  margin: 0 3px;
+}
+
+#serviceslider .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0;
+  position: relative;
+  top: 16px;
+  right: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #d7aa93;
+}
+
+#serviceslider .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #654931;
+}
+
+#serviceslider .owl-theme .owl-dots .owl-dot.active span,
+#serviceslider .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #654931;
+}
+
+.serviceslider_wrapper {
+  margin-left: -60px;
+  margin-right: -60px;
+}
+
+#serviceslider {
+  background-color: var(--normalwhite);
+  padding-bottom: 135px;
+}
+
+.sv-big-slider p {
+  padding-right: 0;
+  text-align: center !important;
+}
+/* -- serviceslide area end -- */
+
+/* -- mbsvslider area start -- */
+.sv_item img {
+  display: block;
+  width: 100%;
+}
+
+.mbsvslider_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+/* -- mbsvslider area end -- */
+
+/* ============================
+    service end
 ============================ */

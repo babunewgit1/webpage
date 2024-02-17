@@ -9,6 +9,11 @@ Medium Screen - Others
     max-width: 915px;
     margin-top: -86px;
   }
+
+  .serviceslider_wrapper {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -96,6 +101,11 @@ Medium Screen - Others
   .resnai_right {
     padding-left: 40px;
   }
+
+  .serviceslider_wrapper {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -182,6 +192,10 @@ Medium Screen - Others
 
   .resnai_right {
     padding-left: 40px;
+  }
+
+  .serviceslider_wrapper {
+    margin: 0;
   }
 }
 
@@ -490,6 +504,41 @@ Small Screen - Tablate
   #p3expert {
     padding-top: 20px;
     padding-bottom: 65px;
+  }
+
+  .sv_item h3.inititle {
+    font-size: 34px;
+  }
+
+  .sv_item_cnt h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .sv_item_cnt p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .sv_item_cnt {
+    padding: 20px;
+  }
+
+  #mbsvslider {
+    background-color: var(--normalwhite);
+    padding-bottom: 40px;
+  }
+
+  .serviceSlider .arrow span#left {
+    top: 52%;
+  }
+
+  .serviceSlider .arrow span#right {
+    top: 52%;
+  }
+
+  .serviceSlider {
+    padding-bottom: 40px !important;
   }
 }
 
@@ -801,6 +850,41 @@ Small Screen - Mobile
     padding-top: 20px;
     padding-bottom: 65px;
   }
+
+  .sv_item h3.inititle {
+    font-size: 20px;
+  }
+
+  .sv_item_cnt h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .sv_item_cnt p {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .sv_item_cnt {
+    padding: 10px;
+  }
+
+  #mbsvslider {
+    background-color: var(--normalwhite);
+    padding-bottom: 40px;
+  }
+
+  .serviceSlider .arrow span#left {
+    top: 52%;
+  }
+
+  .serviceSlider .arrow span#right {
+    top: 52%;
+  }
+
+  .serviceSlider {
+    padding-bottom: 40px !important;
+  }
 }
 
 /*
@@ -1105,5 +1189,40 @@ Xtra Small Screen - Small Mobile
   #p3expert {
     padding-top: 20px;
     padding-bottom: 65px;
+  }
+
+  .sv_item h3.inititle {
+    font-size: 20px;
+  }
+
+  .sv_item_cnt h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .sv_item_cnt p {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  .sv_item_cnt {
+    padding: 10px;
+  }
+
+  #mbsvslider {
+    background-color: var(--normalwhite);
+    padding-bottom: 40px;
+  }
+
+  .serviceSlider .arrow span#left {
+    top: 52%;
+  }
+
+  .serviceSlider .arrow span#right {
+    top: 52%;
+  }
+
+  .serviceSlider {
+    padding-bottom: 40px !important;
   }
 }
