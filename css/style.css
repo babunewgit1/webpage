@@ -345,7 +345,7 @@ header {
 
 #pmslider {
   background-color: var(--normalwhite);
-  padding-bottom: 130px;
+  padding-bottom: 20px;
 }
 
 .pmslider_wrapper {
@@ -1372,6 +1372,34 @@ img.mbg {
 
 .contact_right_link ul li:last-child a {
   color: #f15623;
+}
+
+.resnai_right {
+  position: relative;
+}
+
+.mobile_navs span {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+  left: 4%;
+  top: 52%;
+}
+
+.mobile_navs span#wright {
+  right: 4%;
+  top: 52%;
+  left: inherit;
+}
+
+.mobile_navs span img {
+  display: inline-block;
+  width: 16px;
+}
+
+.serviceSlider {
+  padding-bottom: 80px !important;
 }
 
 /* ============================

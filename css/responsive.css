@@ -1661,4 +1661,8 @@ Xtra Small Screen - Small Mobile
   .contact_right_link ul li a img {
     margin-right: 10px;
   }
+
+  .resnai_left_wrapper h2 {
+    text-align: center;
+  }
 }

@@ -150,6 +150,15 @@
       },
     });
 
+    var resMobile = $(".resnai_slider");
+    resMobile.owlCarousel();
+    $("#wright").click(function () {
+      resMobile.trigger("next.owl.carousel");
+    });
+    $("#wleft").click(function () {
+      resMobile.trigger("prev.owl.carousel", [300]);
+    });
+
     //service page slider
     $(".svproduct").owlCarousel({
       loop: true,
