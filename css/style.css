@@ -92,6 +92,7 @@ label {
 .topheader_left ul li:last-child {
   color: var(--yeltext);
   margin-left: 50px;
+  text-transform: uppercase;
 }
 
 .topheader_right ul li {
@@ -1213,4 +1214,166 @@ img.mbg {
 
 /* ============================
     location end
+============================ */
+
+/* ============================
+    contact start
+============================ */
+#contact {
+  background-color: var(--normalwhite);
+  padding-bottom: 100px;
+}
+
+.contact_heading h2 {
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
+
+.contact_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 20px;
+  column-gap: 120px;
+}
+
+.contact_form_input input,
+.contact_form_input select,
+.contact_form_input textarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--yeltext);
+  font-size: 15px;
+  color: #000;
+  outline: none;
+  padding: 0px 15px 10px;
+  margin-top: 35px;
+  letter-spacing: 1px;
+}
+
+.contact_form_input input::placeholder,
+.contact_form_input textarea::placeholder {
+  color: #000;
+  opacity: 1;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contact_form_input select {
+  text-transform: uppercase;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: top 8px right 90px;
+  background-size: 12px;
+  padding-right: 100px;
+}
+
+.contact_form_input textarea {
+  resize: none;
+  height: 140px;
+}
+
+.contact_form_submit button {
+  display: block;
+  width: 100%;
+  background-color: var(--yeltext);
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  color: var(--white);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  padding: 10px;
+  transition: all 0.2s ease;
+}
+
+.contact_form_submit button:hover {
+  opacity: 0.7;
+}
+
+.contact_right_heading h2 {
+  text-transform: uppercase;
+}
+
+.contact_right_images h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: var(--redbg);
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.contact_right_images_wrapper {
+  display: flex;
+  column-gap: 18px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.criw_left img {
+  display: inline-block;
+  width: 13px;
+}
+
+.criw_right ul li {
+  text-transform: uppercase;
+  color: var(--redbg);
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.criw_right ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #f15623;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: 8px;
+  transition: all 0.2s ease;
+}
+
+.criw_right ul li a:hover {
+  opacity: 0.7;
+}
+
+.contact_right_link ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--redbg);
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 3px;
+  transition: all 0.2s ease;
+}
+
+.contact_right_link ul li a:hover {
+  opacity: 0.7;
+}
+
+.contact_right_link ul li a img {
+  display: inline-block;
+  width: 16px;
+  margin-right: 18px;
+}
+
+.contact_right_link {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.contact_right_link ul li:last-child a {
+  color: #f15623;
+}
+
+/* ============================
+    contact end
 ============================ */

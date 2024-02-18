@@ -688,6 +688,30 @@ Small Screen - Tablate
   .lclocation_item {
     margin-top: 25px;
   }
+
+  .contact_wrapper {
+    column-gap: 15px;
+  }
+
+  .criw_right ul li {
+    font-size: 13px;
+  }
+
+  .criw_right ul li a {
+    font-size: 13px;
+  }
+
+  .contact_right_link ul li a {
+    font-size: 13px;
+  }
+
+  .contact_right_images_wrapper {
+    column-gap: 10px;
+  }
+
+  .contact_right_link ul li a img {
+    margin-right: 10px;
+  }
 }
 
 /*
@@ -1116,6 +1140,55 @@ Small Screen - Mobile
   .lclocation_item {
     margin-top: 25px;
   }
+
+  .contact_wrapper {
+    display: block;
+    padding: 0;
+  }
+
+  .contact_heading h2 {
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  .contact_right_images h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  .contact_right_images_wrapper {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 20px;
+  }
+
+  .contact_right_link {
+    margin-left: 20px;
+  }
+
+  .contact_right {
+    margin-top: 40px;
+  }
+
+  #contact {
+    padding-bottom: 35px;
+  }
+
+  .criw_right ul li,
+  .contact_right_link ul li a {
+    font-size: 14px;
+  }
+
+  .contact_form_input select {
+    background-position: top 8px right 45px;
+    background-size: 12px;
+    padding-right: 58px;
+  }
+
+  .contact_right_link ul li a img {
+    margin-right: 10px;
+  }
 }
 
 /*
@@ -1538,5 +1611,54 @@ Xtra Small Screen - Small Mobile
 
   .lclocation_item {
     margin-top: 25px;
+  }
+
+  .contact_wrapper {
+    display: block;
+    padding: 0;
+  }
+
+  .contact_heading h2 {
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  .contact_right_images h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  .contact_right_images_wrapper {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 20px;
+  }
+
+  .contact_right_link {
+    margin-left: 20px;
+  }
+
+  .contact_right {
+    margin-top: 40px;
+  }
+
+  #contact {
+    padding-bottom: 35px;
+  }
+
+  .criw_right ul li,
+  .contact_right_link ul li a {
+    font-size: 14px;
+  }
+
+  .contact_form_input select {
+    background-position: top 8px right 45px;
+    background-size: 12px;
+    padding-right: 58px;
+  }
+
+  .contact_right_link ul li a img {
+    margin-right: 10px;
   }
 }
