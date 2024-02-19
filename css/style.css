@@ -217,6 +217,7 @@ header {
   background-color: var(--yellowwhite);
   padding-bottom: 25px;
   padding-top: 6px;
+  transition: all 0.2s ease;
 }
 /* -- header area end -- */
 
@@ -395,7 +396,7 @@ header {
   color: var(--yellowbg);
   font-size: 18px;
   padding: 8px 14px;
-  border-bottom: 1px solid var(--yellowbg);
+  border-bottom: 1px solid var(--yeltext);
   transition: all 0.2s ease;
 }
 
@@ -700,13 +701,16 @@ footer {
 /* -- mobileMenu area start -- */
 
 #mobile_menu {
-  background-color: #54170a;
-  padding-bottom: 24px;
   position: fixed;
   left: 0;
   width: 100%;
   bottom: 0;
   z-index: 9999999;
+}
+
+.mobile_menu_wrapper_fixed {
+  background-color: #54170a;
+  padding-bottom: 24px;
 }
 
 .mobile_menu_wrapper {
@@ -766,6 +770,8 @@ img.mbg {
 .menubar {
   position: relative;
   top: 14px;
+  width: 30px;
+  cursor: pointer;
 }
 
 .offcanvas {
@@ -1400,6 +1406,96 @@ img.mbg {
 
 .serviceSlider {
   padding-bottom: 80px !important;
+}
+
+.sticky_heading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999999999;
+  padding: 12px 0px;
+  transition: all 0.2s ease;
+}
+
+.sticky_heading .logo a img {
+  display: inline-block;
+  width: 60px;
+  transition: all 0.2s ease;
+}
+
+.mobile_item_setup {
+  background-color: #fff;
+  padding-bottom: 140px;
+  position: relative;
+  z-index: -1;
+}
+
+#mobile_menu {
+  transition: all 0.5s ease;
+}
+
+.mobilemenuitemwrapper {
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.menuOpen .mobilemenuitemwrapper {
+  height: 620px;
+  overflow: visible;
+  transition: all 0.5s ease;
+}
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+.menubar span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.menubar span:nth-child(2) {
+  margin: 6px 0px;
+}
+
+.menuOpen .menubar span:nth-child(2) {
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.menuOpen .menubar span:first-child {
+  transform: rotate(-45deg);
+  top: 12px;
+  position: relative;
+}
+
+.menuOpen .menubar span:last-child {
+  transform: rotate(45deg);
+  top: -6px;
+  position: relative;
+}
+
+.menuOpen .menubar {
+  top: 10px;
 }
 
 /* ============================

@@ -389,57 +389,78 @@
 
     <!-- mobileMenu area start -->
     <section id="mobile_menu" class="d-block d-lg-none">
-      <div class="container">
-        <div class="mobile_menu_wrapper">
-          <div class="mobile_menu_left">
-            <a href="#"><img src="img/call.png" alt="" /></a>
+      <div class="mobilemenuitemwrapper">
+        <div class="mobile_item_setup">
+          <div class="mobilefooter_wrapper">
+            <div class="mobileft_link">
+              <ul>
+                <li><a href="#">residences</a></li>
+                <li><a href="#">services & FACILITIES</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Rates & offers</a></li>
+                <li><a href="#">location</a></li>
+                <li><a href="#">contact us</a></li>
+              </ul>
+            </div>
+            <div class="footer_call">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-solid fa-phone"></i></span>+66 (0)2 863
+                    1260</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-solid fa-envelope"></i></span
+                    >info@image49bangkok.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer_social">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-brands fa-facebook"></i></span
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><span><i class="fa-brands fa-square-instagram"></i></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="language">
+              <ul>
+                <li><a href="#">ENGLISH</a></li>
+                <li><a href="#">THAI</a></li>
+                <li><a href="#">JAPANESE</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="mobile_logo">
-            <img src="img/ml.png" alt="" />
-          </div>
-          <div class="menubar">
-            <span
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasBottom"
-              aria-controls="offcanvasBottom"
-              ><img src="img/menu.png" alt=""
-            /></span>
+        </div>
+      </div>
+      <div class="mobile_menu_wrapper_fixed">
+        <div class="container">
+          <div class="mobile_menu_wrapper">
+            <div class="mobile_menu_left">
+              <a href="#"><img src="img/call.png" alt="" /></a>
+            </div>
+            <div class="mobile_logo">
+              <img src="img/ml.png" alt="" />
+            </div>
+            <div class="menubar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- mobileMenu area end -->
-
-    <div
-      class="offcanvas offcanvas-bottom"
-      tabindex="-1"
-      id="offcanvasBottom"
-      aria-labelledby="offcanvasBottomLabel"
-    >
-      <div class="offcanvas-header">
-        <div class="mobilelogo">
-          <img src="img/logo.png" alt="" />
-        </div>
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <div class="menuLink">
-          <ul>
-            <li><a href="#">residences</a></li>
-            <li><a href="#"> services FACILITIES</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">RATES OFFERS</a></li>
-            <li><a class="active" href="#"> location</a></li>
-            <li><a href="#">contact us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
 
     <!-- Main jQuery -->
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -455,5 +476,15 @@
 
     <!-- Include owl-carousel -->
     <script src="js/owl.carousel.min.js"></script>
+    <script>
+      const mobilebar = document.querySelector(".menubar");
+      const itemWrapper = document.querySelector("#mobile_menu");
+      const body = document.querySelector("body");
+
+      mobilebar.addEventListener("click", () => {
+        itemWrapper.classList.toggle("menuOpen");
+        body.classList.toggle("overlay");
+      });
+    </script>
   </body>
 </html>

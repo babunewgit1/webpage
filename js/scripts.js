@@ -191,3 +191,16 @@
     });
   });
 })(jQuery);
+
+//sticky header
+(function ($) {
+  $(document).ready(function () {
+    jQuery(window).on("scroll", function () {
+      if (jQuery(window).scrollTop()) {
+        jQuery("header").addClass("sticky_heading");
+      } else {
+        jQuery("header").removeClass("sticky_heading");
+      }
+    });
+  });
+})(jQuery);
